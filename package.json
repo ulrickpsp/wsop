@@ -1,0 +1,19 @@
+{
+  "name": "wsop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "claim": "node index.js",
+    "generate": "node generate.js",
+    "check": "node --check index.js && node --check generate.js",
+    "test": "npm run check"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}
