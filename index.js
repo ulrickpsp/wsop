@@ -57,7 +57,7 @@ async function scrapeLinks(page) {
 
   console.log(`✅ Found ${links.length} unique reward links.\n`);
   // Reverse so we start from the oldest links (bottom of the page) first
-  return links.reverse();
+  return links;
 }
 
 async function claimLink(page, { href, text }, index, total) {
